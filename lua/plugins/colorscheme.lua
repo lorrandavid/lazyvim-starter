@@ -9,10 +9,14 @@ return {
     },
   },
 
+  { "datsfilipe/vesper.nvim" },
+
+  { "AlexvZyl/nordic.nvim" },
+
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "rose-pine",
+      colorscheme = "nordic",
     },
   },
 }
