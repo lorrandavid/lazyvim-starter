@@ -5,4 +5,4 @@
 vim.g.snacks_animate = false
 
 -- Set to false to disable auto format
-vim.g.autoformat = true
+vim.g.autoformat = false
