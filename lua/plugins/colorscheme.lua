@@ -14,9 +14,17 @@ return {
   { "AlexvZyl/nordic.nvim" },
 
   {
+    'sainnhe/sonokai',
+    config = function()
+      vim.g.sonokai_style = "espresso"
+      vim.g.sonokai_enable_italic = true
+    end
+  },
+
+  {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "nordic",
+      colorscheme = "sonokai",
     },
   },
 }
