@@ -3,8 +3,8 @@ return {
     "rose-pine/neovim",
     name = "rose-pine",
     opts = {
-      groups = {
-        background = "#101010",
+      styles = {
+        transparency = true,
       },
     },
   },
@@ -24,7 +24,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "sonokai",
+      colorscheme = "rose-pine-moon",
     },
   },
 }
